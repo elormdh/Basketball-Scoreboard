@@ -34,3 +34,12 @@ function guestAdd3(){
     guestScore.textContent = guestScoreCounter
 }
 
+let resetButton = document.getElementById("reset-btn")
+
+function reset(){
+    homeScoreCounter = 0
+    homeScore.textContent = homeScoreCounter
+
+    guestScoreCounter = 0
+    guestScore.textContent = guestScoreCounter
+}
